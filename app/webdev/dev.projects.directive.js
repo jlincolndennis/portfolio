@@ -2,7 +2,7 @@
   'use strict';
 
   angular.module('app')
-    .directive('jldDevProjects', devProjectsDirective);
+    .directive('devProjects', devProjectsDirective);
 
       function devProjectsDirective() {
         return {
