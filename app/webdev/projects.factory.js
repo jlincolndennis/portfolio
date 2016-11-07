@@ -8,7 +8,7 @@
 
     function projectsFactory($log) {
 
-      var _projects = [
+      var _devProjects = [
         {
           id: "001",
           name: "StorySmasher",
@@ -75,11 +75,31 @@
           ]
         },
       ]
+      var _writingProjects = [
+        {
+          id: "001",
+          title: "We've Got This, Me and You",
+          excerpt: "That was when I knew, right at the end of an amazing weekend, that JLF@Boulder, and literature and art wasn’t just For Me. It was for all of us. We are at a crossroads and I do not know what is going to happen, I don’t know what road my country will take. But the Jaipur Literature Festival at Boulder reminded me of something bigger than elections, and bigger than America. It reminded me, that across all peoples, and cultures, and tastes ,and beliefs, the reason we read, the reason we create, and engage with art in the first place: We read to know we are not alone.",
+          readMoreLink: "https://medium.com/@jlincolndennis/we-got-this-me-and-you-65c73d32d71c#.psicd1q4f",
+        },
+        {
+          id: "002",
+          title: "The Year In Media",
+          excerpt: "Media, art, pop culture — whatever you want to call it — is a profoundly important part of my life. When I close my eyes and try to remember what 2015 felt like, among images of my friends and family and experiences are Steven and Amethyst, Kate and Clint, Rey and Fin, Jupiter and Caine and more. And what’s most exciting of all, back on January 1st, 2015, I had no idea these some of these characters or the pieces of art they are from existed, or if I did, I didn’t know how they’d exist for me. And now its January 1st, 2016. What wonderful things exist outside of my current perception that I will get to experience in the coming year?",
+          readMoreLink: "https://medium.com/@jlincolndennis/2015-the-year-in-media-c64922847e27#.93w41kqu4",
+        },
+        {
+          id: "003",
+          title: "So You've Decided To Give Your Life To Comics...",
+          excerpt: "Have you ever said to yourself, “Self, comics appear to be a pretty cool and unique story telling medium! I sure wish I knew more about them, so I could explore this new and exciting world!” What a coincidence! I just happen to be here to tell you more than you’d ever want to know about the wonderful world of comics and graphic novels! These are some of the best graphic novels available now. Some are stand-alone, others are collections of ongoing comic series. None of them require any background knowledge, just the love of good stories and amazing artwork.",
+          readMoreLink: "https://medium.com/@jlincolndennis/so-you-ve-decided-to-give-your-life-to-comics-c0498f44517d#.70udt0638",
+        },
+      ]
 
-      return {getProjects}
+      return {getDevProjects}
 
-      function getProjects() {
-        return _projects
+      function getDevProjects() {
+        return _devProjects
       }
     }
 

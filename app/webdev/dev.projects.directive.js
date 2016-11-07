@@ -2,23 +2,23 @@
   'use strict';
 
   angular.module('app')
-    .directive('jldProjects', projectsDirective);
+    .directive('jldDevProjects', devProjectsDirective);
 
-      function projectsDirective() {
+      function devProjectsDirective() {
         return {
           restrict: "E",
           scope: {},
-          templateUrl: "app/webdev/projects.directive.html",
-          controller: projectsController,
+          templateUrl: "app/webdev/dev.projects.directive.html",
+          controller: devProjectsController,
           controllerAs: 'vm'
         }
       }
 
-      projectsController.$inject = ['$log', 'projectsFactory']
+      devProjectsController.$inject = ['$log', 'projectsFactory']
 
-      function projectsController($log, projectsFactory) {
+      function devProjectsController($log, projectsFactory) {
         var vm = this;
-        vm.projects = projectsFactory.getProjects()
+        vm.projects = projectsFactory.getDevProjects()
         vm.selectedProject = {}
         vm.learnMoreModal = learnMoreModal;
 
