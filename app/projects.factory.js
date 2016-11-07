@@ -96,10 +96,13 @@
         },
       ]
 
-      return {getDevProjects}
+      return {getDevProjects, getWritingProjects}
 
       function getDevProjects() {
         return _devProjects
+      }
+      function getWritingProjects() {
+        return _writingProjects
       }
     }
 

@@ -1,0 +1,14 @@
+<section class='projects'>
+
+    <article class="writing-project" ng-repeat="project in vm.projects">
+      <h1>{{project.title}}</h1>
+      <blockquote cite={{project.readMoreLink}}>
+        {{project.excerpt}}
+      </blockquote>
+      <a ng-href={{project.readMoreLink}} target="_blank">Keep Reading...</a>
+
+    </article>
+
+  
+
+</section>
