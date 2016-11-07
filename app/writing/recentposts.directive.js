@@ -8,7 +8,7 @@
       return {
         restrict: 'E',
         scope: {},
-        templateUrl: 'app/writing/recentPosts.directive.html',
+        templateUrl: 'app/writing/recentposts.directive.html',
         controller: recentPostsController,
         controllerAs: 'vm'
 
