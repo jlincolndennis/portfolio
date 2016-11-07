@@ -12,15 +12,15 @@
 
       $stateProvider
         .state('about', {
-          templateUrl: '/app/partials/about.html',
+          templateUrl: '/app/about/about.html',
           url: '/'
         })
         .state('webdev', {
-          templateUrl: '/app/partials/webdev.html',
+          templateUrl: '/app/webdev/webdev.html',
           url: '/webdev'
         })
         .state('writing', {
-          templateUrl: '/app/partials/writing.html',
+          templateUrl: '/app/writing/writing.html',
           url: '/writing'
         })
     }
