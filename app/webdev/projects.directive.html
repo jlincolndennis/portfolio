@@ -1,0 +1,9 @@
+<section class='projects'>
+  <div ng-repeat="project in vm.projects">
+    <h2>{{project.name}} <small><a ng-href={{project.visitLink}} target="_blank">visit</a> | <a ng-href={{project.codebaseLink}} target="_blank">codebase</a></small></h2>
+    <p>{{project.technologies}}</p>
+    <a href="#">Learn more...</a>
+
+  </div>
+
+</section>
