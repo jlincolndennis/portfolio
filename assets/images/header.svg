@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="369px" height="75px" viewBox="0 0 369 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>Header Image</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-weight="normal">
+        <g id="Header-Image">
+            <g>
+                <text id="J-Lincoln-Dennis" font-family="ProzaLibre-Regular, Proza Libre" font-size="48">
+                    <tspan x="0" y="47" fill="#313131">J </tspan>
+                    <tspan x="25.359375" y="47" fill="#F17105">Lincoln</tspan>
+                    <tspan x="189.984375" y="47" fill="#4F0591"> </tspan>
+                    <tspan x="200.578125" y="47" fill="#313131">Dennis</tspan>
+                </text>
+                <text id="reader,-writer,-code" font-family="CrimsonText-Roman, Crimson Text" font-size="18" fill="#313131">
+                    <tspan x="31.554672" y="70">reader, writer, coder</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,6 +1,6 @@
 <section class='projects'>
   <div ng-repeat="project in vm.projects">
-    <img  width="250" ng-src={{project.thumbnailLink}} alt="project thumbnail">
+    <img ng-click="vm.learnMoreModal(project)" width="250" ng-src={{project.thumbnailLink}} alt="project thumbnail">
     <h2>{{project.name}} <small><a ng-href={{project.visitLink}} target="_blank">visit</a> | <a ng-href={{project.codebaseLink}} target="_blank">codebase</a></small></h2>
     <p>{{project.technologies}}</p>
     <a href="#" ng-click="vm.learnMoreModal(project)">Learn more...</a>
