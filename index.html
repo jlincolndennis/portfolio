@@ -30,37 +30,52 @@
   <base href="/">
 </head>
 <body ng-app="app">
-  <nav>
+  <nav class="top">
     <ul>
-      <a ui-sref="about"><li>about</li></a>
-      <a ui-sref="webdev"><li>web development</li></a>
-      <a ui-sref="writing"><li>writing</li></a>
+      <a ng-class="" ui-sref="about"><li>about</li></a>
+      <a ng-class="" ui-sref="webdev"><li>web development</li></a>
+      <a ng-class="" ui-sref="writing"><li>writing</li></a>
       <a href="https://jlincolndennis.github.io/"><li>blog</li></a>
     </ul>
   </nav>
+  <div class="container">
+    <div class="col-md-10 col-md-offset-1">
 
-  <header>
-    <img class="img-responsive" src="/assets/images/header.svg" alt="J Lincoln Dennis">
-    <p>
-      Hey. I’m Lincoln  I like making things with words. <br>
-      I'm passionate about art, creativity, the future, and equality. <br>
+
+
+
+
+  <header class="row">
+    <img class="masthead col-md-offset-1 col-md-5" src="/assets/images/header.svg" alt="J Lincoln Dennis">
+    <p class="about-copy col-md-6">
+      Hey. I’m <span class="name">Lincoln</span>.  I like making things with words.<br>
+      I'm passionate about art, creativity, the future, and equality.<br>
       Oh, and comic books. And cats. And lots of awesome things, really.
     </p>
-  </header>
 
-  <ui-view></ui-view>
+  </header>
+  <div class="line"></div>
+
+  <div class="content row">
+
+    <ui-view></ui-view>
+  </div>
+</div>
+
 
   <footer>
-    <ul>
+    <ul class='text-center'>
       <a ui-sref="about"><li>about</li></a>
       <a ui-sref="webdev"><li>web development</li></a>
       <a ui-sref="writing"><li>writing</li></a>
       <a href="https://jlincolndennis.github.io/"><li>blog</li></a>
     </ul>
 
-    <p>
+    <p class="text-center">
       jlincolndennis.com & scraps of poetry and madness © forever J Lincoln Dennis
     </p>
+  </div>
   </footer>
+
 </body>
 </html>

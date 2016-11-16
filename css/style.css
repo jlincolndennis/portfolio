@@ -1,0 +1,98 @@
+body {
+  border-top: 10px solid #F17105;
+  font-family: "Crimson Text", serif;
+  color: #313131; }
+
+span.name {
+  color: #F17105; }
+
+.content {
+  clear: both; }
+
+h1 {
+  font-family: "Proza Libre", sans-serif;
+  color: #F17105;
+  font-size: 1.5em; }
+
+a {
+  color: #F17105; }
+  a:hover {
+    color: #F17105; }
+
+blockquote {
+  font-size: 1.2em;
+  border-left: 5px solid #9B9B9B;
+  margin-bottom: 20px; }
+
+button {
+  width: 100%;
+  background-color: #F17105;
+  color: #FDFDFD;
+  border: 0;
+  padding: 10px; }
+
+.content {
+  margin-top: 40px; }
+
+.top ul {
+  list-style-type: none;
+  text-align: center; }
+
+footer {
+  clear: both; }
+
+footer ul a {
+  color: #313131; }
+  footer ul a li {
+    font-size: 1em;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px; }
+
+.project {
+  margin-top: 50px;
+  margin-bottom: 75px; }
+
+.project h2 {
+  font-size: 1.4em; }
+
+.project-details {
+  padding-left: 30px; }
+
+.top ul {
+  list-style-type: none;
+  text-align: center; }
+
+.top ul a {
+  color: #9B9B9B; }
+  .top ul a:hover {
+    color: #FDFDFD;
+    text-decoration: none; }
+  .top ul a li {
+    font-size: 1.3em;
+    display: inline-block;
+    padding: 10px 3px 3px;
+    margin-left: 15px;
+    margin-right: 15px; }
+    .top ul a li:hover {
+      background-color: #F17105; }
+
+header {
+  margin-top: 25px; }
+
+.line {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  height: 1px;
+  border-bottom: 1px solid #9B9B9B;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5); }
+
+.about-copy {
+  margin-top: 15px;
+  font-size: 10pt; }
+
+.nav-selected li {
+  color: #FDFDFD;
+  background-color: #F17105; }
