@@ -1,18 +1,27 @@
 body {
   border-top: 10px solid #F17105;
   font-family: "Crimson Text", serif;
-  color: #313131; }
+  color: #313131;
+  margin-bottom: 60px; }
+
+html {
+  position: relative;
+  min-height: 100%; }
 
 span.name {
   color: #F17105; }
 
 .content {
-  clear: both; }
+  clear: both;
+  margin-top: 40px; }
 
 h1 {
   font-family: "Proza Libre", sans-serif;
   color: #F17105;
   font-size: 1.5em; }
+
+.page-content h1, .sidebar h1 {
+  margin-bottom: 20px; }
 
 a {
   color: #F17105; }
@@ -24,15 +33,16 @@ blockquote {
   border-left: 5px solid #9B9B9B;
   margin-bottom: 20px; }
 
+.sidebar a button {
+  margin-top: 20px; }
+
 button {
   width: 100%;
   background-color: #F17105;
   color: #FDFDFD;
   border: 0;
-  padding: 10px; }
-
-.content {
-  margin-top: 40px; }
+  padding: 10px;
+  border-radius: 2px; }
 
 .top ul {
   list-style-type: none;
@@ -40,6 +50,14 @@ button {
 
 footer {
   clear: both; }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+
+footer ul {
+  padding-left: 0; }
 
 footer ul a {
   color: #313131; }

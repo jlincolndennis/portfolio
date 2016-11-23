@@ -2,7 +2,15 @@ body {
   border-top: 10px solid $orange;
   font-family: $serif, serif;
   color: $black;
+  margin-bottom: 60px;
 }
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+
 
 span.name {
   color: $orange;
@@ -10,7 +18,7 @@ span.name {
 
 .content {
   clear: both;
-
+  margin-top: 40px;
 }
 
 h1 {
@@ -18,6 +26,10 @@ h1 {
   color: $orange;
   font-size: 1.5em;
 
+}
+
+.page-content h1, .sidebar h1 {
+  margin-bottom: 20px;
 }
 
 a {
@@ -34,19 +46,23 @@ blockquote {
   margin-bottom: 20px;
 }
 
+.sidebar a button {
+  margin-top: 20px;
+}
+
+
 button {
   width: 100%;
   background-color: $orange;
   color: $white;
   border: 0;
   padding: 10px;
+  border-radius: 2px;
 }
 
-.content {
-  margin-top: 40px;
-}
 
-// footer
+
+
 .top ul {
   list-style-type: none;
   text-align: center;
@@ -57,14 +73,21 @@ footer {
   clear: both;
 
 }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+}
+
+footer ul {
+  padding-left: 0;
+}
+
 footer ul a {
   color: $black;
 
-  // &:hover {
-  //   background-color: $orange;
-  //   color: $white;
-  //   text-decoration: none;
-  // }
 
   li {
     font-size: 1em;
