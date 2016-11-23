@@ -2,7 +2,7 @@ body {
   border-top: 10px solid #F17105;
   font-family: "Crimson Text", serif;
   color: #313131;
-  margin-bottom: 60px; }
+  margin-bottom: 80px; }
 
 html {
   position: relative;
@@ -34,7 +34,12 @@ blockquote {
   margin-bottom: 20px; }
 
 .sidebar a button {
-  margin-top: 20px; }
+  margin-top: 15px; }
+
+.sidebar ul {
+  padding-left: 25px; }
+  .sidebar ul li {
+    margin-top: 5px; }
 
 button {
   width: 100%;
@@ -47,6 +52,15 @@ button {
 .top ul {
   list-style-type: none;
   text-align: center; }
+
+.notable-tech {
+  font-size: 1.2em; }
+
+.project-thumbnail {
+  cursor: pointer; }
+
+button.close {
+  width: auto; }
 
 footer {
   clear: both; }

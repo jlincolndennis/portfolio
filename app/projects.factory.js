@@ -45,7 +45,8 @@
           technologies: "AngularJS, Javascript, CSS",
           description: [
             "The homepage of Denver’s “Most-Awesome and Best-Named Book Club” - a group organized by yours truly - serving as an informational and promotional hub for current and prospective members.",
-            "This project has the distinction of being the first site I have developed and deployed to a real, live user-base with the expectation that the site actually work consistently and intuitively. In addition to being the furthest I had pushed myself in terms of design at that point, it was also a wonderful learning experience in receiving actual feedback from real users."
+            "This project has the distinction of being the first site I have developed and deployed to a real, live user-base with the expectation that the site actually work consistently and intuitively. In addition to being the furthest I had pushed myself in terms of design at that point, it was also a wonderful learning experience in receiving actual feedback from real users.",
+            "(Does that really say, 'Featuring: CSS'? Sigh. Who writes these things?)"
           ]
         },
         {

@@ -1,6 +1,6 @@
 <section class='projects'>
   <div class="project row" ng-repeat="project in vm.projects">
-    <img class="col-md-4" ng-click="vm.learnMoreModal(project)" ng-src={{project.thumbnailLink}} alt="project thumbnail">
+    <img class="project-thumbnail col-md-4" ng-click="vm.learnMoreModal(project)" ng-src={{project.thumbnailLink}} alt="project thumbnail">
     <div class="project-details col-md-8">
 
     <h2>{{project.name}} <small><a ng-href={{project.visitLink}} target="_blank">visit</a> | <a ng-href={{project.codebaseLink}} target="_blank">codebase</a></small></h2>
@@ -23,11 +23,11 @@
       </div>
       <div class="modal-body">
         <img class="img-responsive" ng-src={{vm.selectedProject.screenshotLink}} alt="screenshot">
-        <h5>Notable Tech: {{vm.selectedProject.technologies}}</h5>
+        <h5 class='notable-tech'>Featuring: {{vm.selectedProject.technologies}}</h3>
         <p ng-repeat="paragraph in vm.selectedProject.description">{{paragraph}}</p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>

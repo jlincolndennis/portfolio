@@ -2,7 +2,7 @@ body {
   border-top: 10px solid $orange;
   font-family: $serif, serif;
   color: $black;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
 }
 
 html {
@@ -47,7 +47,14 @@ blockquote {
 }
 
 .sidebar a button {
-  margin-top: 20px;
+  margin-top: 15px;
+}
+
+.sidebar ul {
+  padding-left: 25px;
+  li {
+    margin-top: 5px;
+  }
 }
 
 
@@ -60,13 +67,23 @@ button {
   border-radius: 2px;
 }
 
-
-
-
 .top ul {
   list-style-type: none;
   text-align: center;
 
+}
+
+.notable-tech {
+  font-size: 1.2em;
+
+}
+
+.project-thumbnail {
+  cursor: pointer;
+}
+
+button.close {
+  width: auto;
 }
 
 footer {
