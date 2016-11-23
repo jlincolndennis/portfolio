@@ -3,7 +3,10 @@
     <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
     <title>Header Image</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
+    <!-- <defs></defs> -->
+    <defs>
+      <style type="text/css">@import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,700,700i|Proza+Libre);</style>
+    </defs>
     <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-weight="normal">
         <g id="Header-Image">
             <g>
