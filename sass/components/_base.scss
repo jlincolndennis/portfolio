@@ -86,6 +86,10 @@ button.close {
   width: auto;
 }
 
+.recent-post-title  {
+  font-size: 1.2em;
+}
+
 footer {
   clear: both;
 
@@ -115,13 +119,17 @@ footer ul a {
   }
 
 }
-.project {
+.dev-project {
   margin-top: 50px;
   margin-bottom: 75px;
 }
 
+.writing-project {
+  margin-bottom: 50px;
+}
 
-.project h2 {
+
+.dev-project h2, .writing-project h2 {
   font-size: 1.4em;
 }
 
