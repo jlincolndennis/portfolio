@@ -6,7 +6,6 @@
 
     navController.$inject = ['$log', '$scope']
 
-
     function navController($log, $scope) {
 
       $scope.activeSection = {

@@ -14,9 +14,9 @@
       }
     }
 
-    writingProjectsController.$inject = ['$log', 'projectsFactory']
+    writingProjectsController.$inject = ['projectsFactory']
 
-    function writingProjectsController($log, projectsFactory) {
+    function writingProjectsController(projectsFactory) {
       var vm = this;
       vm.projects = projectsFactory.getWritingProjects()
     }

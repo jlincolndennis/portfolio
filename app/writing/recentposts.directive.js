@@ -11,15 +11,13 @@
         templateUrl: 'app/writing/recentposts.directive.html',
         controller: recentPostsController,
         controllerAs: 'vm'
-
       }
     }
 
-    recentPostsController.$inject = ['feedFactory', '$log']
+    recentPostsController.$inject = ['feedFactory']
 
-    function recentPostsController(feedFactory, $log) {
+    function recentPostsController(feedFactory) {
 
-      $log.log('in controller')
       var vm = this;
 
       feedFactory.getFeed()
@@ -29,9 +27,6 @@
           } else {
             return vm.error = feed.err
           }
-
         })
-
     }
-
 }());

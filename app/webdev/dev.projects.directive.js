@@ -25,7 +25,6 @@
         function learnMoreModal(project) {
           vm.selectedProject = project;
           $('#projectInfoModal').modal('show')
-
         }
       }
 }());
