@@ -10,7 +10,7 @@
 
   &:hover {
     // background-color: $orange;
-    color: $white;
+    // color: $white;
     text-decoration: none;
   }
 
@@ -23,11 +23,17 @@
     margin-right: 15px;
 
     &:hover {
+      color: $white;
       background-color: $orange;
 
     }
   }
 
+}
+
+.active li {
+  color: $white;
+  background-color: $orange;
 }
 
 @media (max-width: 499px) {

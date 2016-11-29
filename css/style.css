@@ -109,7 +109,6 @@ footer ul a {
 .top ul a {
   color: #9B9B9B; }
   .top ul a:hover {
-    color: #FDFDFD;
     text-decoration: none; }
   .top ul a li {
     font-size: 1.3em;
@@ -118,7 +117,12 @@ footer ul a {
     margin-left: 15px;
     margin-right: 15px; }
     .top ul a li:hover {
+      color: #FDFDFD;
       background-color: #F17105; }
+
+.active li {
+  color: #FDFDFD;
+  background-color: #F17105; }
 
 @media (max-width: 499px) {
   .top ul a li {
