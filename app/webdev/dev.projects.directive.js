@@ -18,6 +18,7 @@
 
       function devProjectsController($log, projectsFactory) {
         var vm = this;
+
         vm.projects = projectsFactory.getDevProjects()
         vm.selectedProject = {}
         vm.learnMoreModal = learnMoreModal;
