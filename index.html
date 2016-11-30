@@ -26,10 +26,10 @@
 
   <link rel="stylesheet" href="/css/style.css">
 
-
   <title>J Lincoln Dennis</title>
   <base href="/">
 </head>
+
 <body ng-app="app">
   <nav ng-controller="navController" class="top">
     <ul>
@@ -39,33 +39,29 @@
       <a href="https://jlincolndennis.github.io/" target="_blank"><li>blog</li></a>
     </ul>
   </nav>
+
   <div class="container">
     <div class="col-md-10 col-md-offset-1">
+      <header class="row">
+        <div class="masthead col-md-offset-1 col-md-5">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 369 75"><style>.a{fill:#313131;}</style><title>  Header Image</title><desc>  Created with Sketch.</desc><defs><style type="text/css">  @import url(https:&#x2F;&#x2F;fonts.googleapis.com&#x2F;css?family=Crimson+Text:400,400i,700,700i|Proza+Libre);</style></defs><g fill="none"><text font-family="ProzaLibre-Regular, Proza Libre" font-size="48"><tspan y="47" class="a">  J </tspan><tspan x="25.4" y="47" fill="#F17105">  Lincoln</tspan><tspan x="190" y="47" fill="#4F0591"/><tspan x="200.6" y="47" class="a">  Dennis</tspan></text><text font-family="CrimsonText-Roman, Crimson Text" font-size="18" class="a"><tspan x="31.6" y="70">  reader, writer, coder</tspan></text></g>
+          </svg>
+        </div>
+        <div class="col-md-6">
+          <p class="about-copy">
+            Hey. I’m <span class="name">Lincoln</span>.  I like making things with words.<br class="pretentious-line-breaks">
+            I'm passionate about art, creativity, the future, and equality. <br class="pretentious-line-breaks">
+            Oh, and comic books. And cats. And lots of awesome things, really.
+          </p>
+        </div>
+      </header>
 
+      <div class="line"></div>
+  
+      <ui-view></ui-view>
 
-  <header class="row">
-    <div class="masthead col-md-offset-1 col-md-5">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 369 75"><style>.a{fill:#313131;}</style><title>  Header Image</title><desc>  Created with Sketch.</desc><defs><style type="text/css">  @import url(https:&#x2F;&#x2F;fonts.googleapis.com&#x2F;css?family=Crimson+Text:400,400i,700,700i|Proza+Libre);</style></defs><g fill="none"><text font-family="ProzaLibre-Regular, Proza Libre" font-size="48"><tspan y="47" class="a">  J </tspan><tspan x="25.4" y="47" fill="#F17105">  Lincoln</tspan><tspan x="190" y="47" fill="#4F0591"/><tspan x="200.6" y="47" class="a">  Dennis</tspan></text><text font-family="CrimsonText-Roman, Crimson Text" font-size="18" class="a"><tspan x="31.6" y="70">  reader, writer, coder</tspan></text></g>
-    </svg>
-  </div>
-  <div class="col-md-6">
-    <p class="about-copy">
-      Hey. I’m <span class="name">Lincoln</span>.  I like making things with words.<br class="pretentious-line-breaks">
-      I'm passionate about art, creativity, the future, and equality. <br class="pretentious-line-breaks">
-      Oh, and comic books. And cats. And lots of awesome things, really.
-    </p>
     </div>
-
-  </header>
-  <div class="line"></div>
-
-  <div class="content row">
-
-    <ui-view></ui-view>
   </div>
-</div>
-</div>
-
 
   <footer class="footer">
     <ul class='text-center'>

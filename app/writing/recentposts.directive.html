@@ -1,13 +1,9 @@
 <section class='recent-posts'>
-
-
-    {{vm.err}}
-
-
-      <article ng-repeat="post in vm.feed">
-        <h3 class='recent-post-title'><a ng-href={{post.link}} target="_blank">{{post.title}}</a> <br><small>{{post.date | date:'d MMMM yyyy'}}</small></h3>
-
-
-      </article>
-
-    </section>
+  {{vm.err}}
+  <article ng-repeat="post in vm.feed">
+    <h3 class='recent-post-title'><a ng-href={{post.link}} target="_blank">{{post.title}}</a>
+      <br>
+      <small>{{post.date | date:'d MMMM yyyy'}}</small>
+    </h3>
+  </article>
+</section>
