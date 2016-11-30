@@ -13,6 +13,7 @@
       return {getFeed}
 
       function getFeed() {
+        _feed = [];
         var url = "https://rss2json.com/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40jlincolndennis"
 
         return $http.get(url)
@@ -26,11 +27,6 @@
                   link: fullFeed[i].link
                 })
               }
-              // _feed = [fullFeed[0], fullFeed[1], fullFeed[2]]
-              // _feed.forEach(function (item) {
-              //   item.date = Date.parse(item.pubDate)
-              // })
-              console.log(_feed);
               return _feed
             } else {
               _error = {

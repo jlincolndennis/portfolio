@@ -19,6 +19,7 @@
     function recentPostsController(feedFactory) {
 
       var vm = this;
+      vm.feed = [];
 
       feedFactory.getFeed()
         .then(function (feed) {
