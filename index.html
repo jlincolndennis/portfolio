@@ -10,7 +10,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-sanitize.js"></script>
 
   <script src="/app/app.module.js" charset="utf-8"></script>
-  <script src="/app/nav.controller.js" charset="utf-8"></script>
   <script src="/app/webdev/dev.projects.directive.js" charset="utf-8"></script>
   <script src="/app/writing/writing.projects.directive.js" charset="utf-8"></script>
   <script src="/app/writing/feed.factory.js" charset="utf-8"></script>
@@ -31,11 +30,11 @@
 </head>
 
 <body ng-app="app">
-  <nav ng-controller="navController" class="top">
+  <nav class="top">
     <ul>
-      <a ng-class="{'active': activeSection.about}" ng-click="activeSelector('about')" ui-sref="about"><li>about</li></a>
-      <a ng-class="{'active': activeSection.webDev}" ng-click="activeSelector('webDev')" ui-sref="webdev"><li>web development</li></a>
-      <a ng-class="{'active': activeSection.writing}" ng-click="activeSelector('writing')" ui-sref="writing"><li>writing</li></a>
+      <a ui-sref-active="active" ui-sref="about"><li>about</li></a>
+      <a ui-sref-active="active" ui-sref="webdev"><li>web development</li></a>
+      <a ui-sref-active="active" ui-sref="writing"><li>writing</li></a>
       <a href="https://jlincolndennis.github.io/" target="_blank"><li>blog</li></a>
     </ul>
   </nav>
@@ -57,7 +56,7 @@
       </header>
 
       <div class="line"></div>
-  
+
       <ui-view></ui-view>
 
     </div>
